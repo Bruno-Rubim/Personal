@@ -1,9 +1,11 @@
 body{
 	background-color: #dbaca0;
+	margin: 20px;
 }
 img{
 	image-rendering: pixelated;
 }
 div{
 	display: grid;
+	grid-gap: 5px
 }

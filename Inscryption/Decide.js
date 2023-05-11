@@ -1,4 +1,4 @@
-function randomCard(cardList){
+function randomSelect(cardList){
 	let i = Math.random()*cardList.length;
 	i = Math.floor(i);
 	console.log(i);
@@ -6,11 +6,15 @@ function randomCard(cardList){
 }
 
 function handleButton1 (){
-	document.querySelector('#rand1 img').src = randomCard(playerCards);
+	document.querySelector('#rand1 img').src = randomSelect(playerCards);
 }
 
 function handleButton2 (){
-	document.querySelector('#rand2 img').src = randomCard(leshyCards);
+	document.querySelector('#rand2 img').src = randomSelect(leshyCards);
+}
+
+function handleButton3 (){
+	document.querySelector('#rand3 img').src = randomSelect(leshyCards);
 }
 
 document.querySelector('#rand1 button').onclick = handleButton1;
