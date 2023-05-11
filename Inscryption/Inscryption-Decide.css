@@ -4,6 +4,6 @@ body{
 img{
 	image-rendering: pixelated;
 }
-div.series{
+div{
 	display: grid;
 }

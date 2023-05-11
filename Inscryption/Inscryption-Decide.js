@@ -5,16 +5,15 @@ const playerCards = [
 	'wolf',
 ];
 
-let serie = document.querySelector('.series');
-
-function randomCard(cardGroup){
-	let i = Math.random()*cardGroup.length;
+function randomCard(cardList){
+	let i = Math.random()*cardList.length;
 	i = Math.floor(i);
 	console.log(i);
-	let cardName = cardGroup[i];
-	serie.querySelector('.cardImage').src = "./images/pixel-" + cardName + ".png"
-
-	//this.sibling > img.src = "./images/pixel-" + cardName + ".png"
+	return "./images/pixel-" + cardList[i] + ".png"
 }
 
-serie.querySelector('.first').onclick = randomCard(playerCards);
+function handleButton1 (){
+	document.querySelector('#rand1 img').src = randomCard(playerCards);
+}
+
+document.querySelector('#rand1 button').onclick = handleButton1;
