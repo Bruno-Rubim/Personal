@@ -1,0 +1,15 @@
+body{
+	background-color: #dbaca0;
+	margin: 20px;
+}
+img{
+	image-rendering: pixelated;
+	width: 88px;
+}
+div{
+	display: grid;
+	grid-gap: 5px
+}
+button{
+	padding: 20px;
+}

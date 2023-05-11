@@ -4,8 +4,12 @@ body{
 }
 img{
 	image-rendering: pixelated;
+	width: 220px;
 }
 div{
 	display: grid;
 	grid-gap: 5px
+}
+button{
+	padding: 20px;
 }
