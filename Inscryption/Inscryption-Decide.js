@@ -5,9 +5,9 @@ const playerCards = [
 	'wolf',
 ];
 
-let buttonRandomCard1 = documetn.queryselector('#randomCard1')
+let buttonRandomCard1 = document.querySelector('#first');
 function randomCard(cardGroup){
-	document.queryselector('');
-	Math.random();
+	let cardName = Math.random()*cardGroup.length;
+	this.sibling > img.src = "./images/pixel-" + cardName + ".png"
 }
 buttonRandomCard1.onclick = randomCard(playerCards);
