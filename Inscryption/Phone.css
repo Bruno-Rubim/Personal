@@ -1,10 +1,11 @@
 body{
 	background-color: #dbaca0;
-	margin: 20px;
+	background-image: url("./images/phone-wallpaper.jpg");
 	zoom: 200%;
 }
 img{
 	image-rendering: pixelated;
+	margin: 10px;
 	width: 220px;
 }
 div{

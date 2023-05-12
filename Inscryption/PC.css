@@ -1,5 +1,7 @@
 body{
 	background-color: #dbaca0;
+	background-repeat: no-repeat;
+	background-size: 100%;
 	margin: 20px;
 }
 img{
