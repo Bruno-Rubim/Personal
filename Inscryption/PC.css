@@ -1,17 +1,31 @@
 body{
 	background-color: #dbaca0;
-	background-repeat: no-repeat;
+	background-image: url("./images/pc-wallpaper.png");
 	background-size: 100%;
+	color: #f26d17;
 	margin: 20px;
+	text-shadow: 0px 0px 4px #d96820;
+	image-rendering: pixelated;
 }
 img{
-	image-rendering: pixelated;
-	width: 88px;
+	width: 132px;
 }
-div{
+#container{
 	display: grid;
-	grid-gap: 5px
+	grid-gap: 10px;
+	grid-auto-flow: column;
+}
+label {
+	margin: auto;
 }
 button{
 	padding: 20px;
+	border: none;
+	background-color: #00000000;
+	background-image: url("./images/button-image.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 5px;
+	width: 132px;
+	height: 63px;
 }
