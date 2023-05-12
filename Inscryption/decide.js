@@ -16,14 +16,14 @@ function handleButton1Player (){
 }
 
 function handleButton3Player (){
-	let img1 = document.querySelector('#rand3Playerimg1');
-	let img2 = document.querySelector('#rand3Playerimg2');
-	let img3 = document.querySelector('#rand3Playerimg3');
-	img1.src = randomSelect(playerCards);
-	img2.src = randomSelect(playerCards);
-	img3.src = randomSelect(playerCards);
-	img2.src = noRepeat(img1.src, img2.src, playerCards);
-	img3.src = noRepeat(img2.src, img3.src, playerCards);
+	let imgs = document.querySelectorAll('#rand3Player img');
+	for (var i = 0; i < imgs.length; i++) {
+		let newcard = randomSelect(playerCards);
+		if (i!=0){
+			newcard = noRepeat(imgs[i-1].src, newcard, playerCards);
+		}
+		imgs[i].src = newcard;
+	}
 }
 
 function handleButton1Rare (){
@@ -31,18 +31,14 @@ function handleButton1Rare (){
 }
 
 function handleButton3Rare (){
-	let img1 = document.querySelector('#rand3Rareimg1');
-	let img2 = document.querySelector('#rand3Rareimg2');
-	let img3 = document.querySelector('#rand3Rareimg3');
-	img1.src = randomSelect(rareCards);
-	img2.src = randomSelect(rareCards);
-	img3.src = randomSelect(rareCards);
-	img2.src = noRepeat(img1.src, img2.src, rareCards);
-	img3.src = noRepeat(img2.src, img3.src, rareCards);
-}
-
-function handleButton1Leshy (){
-	document.querySelector('#rand1Leshy img').src = randomSelect(leshyCards);
+	let imgs = document.querySelectorAll('#rand3Rare img');
+	for (var i = 0; i < imgs.length; i++) {
+		let newcard = randomSelect(rareCards);
+		if (i!=0){
+			newcard = noRepeat(imgs[i-1].src, newcard, rareCards);
+		}
+		imgs[i].src = newcard;
+	}
 }
 
 function handleButton1Event (){
