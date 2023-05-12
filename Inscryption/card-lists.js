@@ -98,3 +98,28 @@ const leshyCards = [
 	'wolwerine',
 	'workerant',
 ];
+
+const events = [
+	'trade',
+	'mycologist',
+	'bonealtar',
+	'mysteriousstones',
+	'campfire',
+	'itembag',
+];
+
+const rareCards = [
+	'amalgamation',
+	'child13',
+	'geck',
+	'hidebehind',
+	'hoodag',
+	'longelk',
+	'mantisgod',
+	'moleman',
+	'ouroboros',
+	'packrat',
+	'strangelarva',
+	'thedaus',
+	'urayuli',
+];
