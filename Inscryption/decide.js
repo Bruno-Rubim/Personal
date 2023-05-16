@@ -5,6 +5,7 @@ function randomSelect(cardList){
 }
 
 function noRepeat(card1, card2, cardList){
+	console.log(card1);
 	while (card1 == card2){
 		card2 = randomSelect(cardList); 
 	}
