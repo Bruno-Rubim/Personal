@@ -1,0 +1,9 @@
+[19:36:15:84]Olá.
+[19:36:15:84]OLÁ.
+[19:36:49:70]Mostre uma turbina.
+[19:37:13:33]returned l12-19371333.png
+[19:37:30:64]Mostre um gato.
+[19:42:54:79]returned l12-1219395479.png
+[19:43:44:43]Adeus.
+[19:43:44:44]ADEUS.
+[19:43:44:44]simulation ended. returned "log12.txt"
