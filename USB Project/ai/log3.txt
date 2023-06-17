@@ -1,0 +1,8 @@
+[13:42:22:08]Olá.
+[13:42:54:97]OLÁ.
+[13:43:00:24]O que é uma turbina?
+[13:46:19:40]MAQUINA DE ENERGIA MECANICA ROTATORIA A PARTIR DE UM FLUIDO
+[13:46:44:01]O que é você?
+[13:48:52:72]PROTOTIPO DE AJUDANTE DE PESQUISAS AGI
+[13:49:33:84]Quem é você?
+[16:23:18:72]simulation has ended. returned "log3.txt"
